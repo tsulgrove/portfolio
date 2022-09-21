@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
   </head>
   <body>
     <header>
@@ -10,29 +11,45 @@
     </header>
     <section>
       <h2>Links for all my web pages</h2>
+      <p class="tiny">(And some github links too!)</p>
+
         <article>
           <h3>About Me!</h3>
-          <img src="images/lego-waving.jpg" width="222" height="166" alt="graffiti of a lego person on a wall waving">
+
+          <aside>
+            <img src="images/lego-waving.jpg" width="222" height="166" alt="graffiti of a lego person on a wall waving">
+          </aside>
+          <p class="about-me"> This is a quick page about who I am.</p>
           <nav>
-            <a href="about-me.html">About me</a>
+            <a class="important" href="about-me.html">About me</a>
           </nav>
         </article>
-        <article>
+
+        <article class="top-padded">
           <h3>My First webpage!</h3>
-          <img src="images/thumbs-up.jpg" width="222" height="166" alt="black and white photo of an old race car driver giving two thumbs up">
+          <aside>
+            <img src="images/thumbs-up.jpg" width="222" height="166" alt="black and white photo of an old race car driver giving two thumbs up">
+          </aside>
+          <p class="first-webpage"> This is my first website that explores creating semantic elements.</p>
           <nav>
-            <a href="https://github.com/tsulgrove/semantic-elements">First Webpage</a>
+            <a class="important" href="https://tsulgrove.github.io/semantic-elements">First Webpage</a>
+            <a class="important" href="https://github.com/tsulgrove/semantic-elements">Github Repo</a>
           </nav>
         </article>
-        <article>
+
+        <article class="top-padded">
           <h3>My Second webpage!</h3>
-          <img src="images/chuck-norris-approval.jpg" width="222" height="166" alt="Chuck Norris giving his approval with a thumbs up">
+          <aside>
+            <img src="images/chuck-norris-approval.jpg" width="222" height="166" alt="Chuck Norris giving his approval with a thumbs up">
+          </aside>
+          <p class="second-webpage"> This is my second website, you may have heard of it before.</p>
           <nav>
-            <a href="https://google.com">Second Webpage</a>
+            <a class="important" href="https://google.com">Second Webpage</a>
           </nav>
         </article>
+
     </section>
-    <footer>
+    <footer class="top-padded">
       <p>This page is built by me, Thomas, in 2022</p>
     </footer>
   </body>
