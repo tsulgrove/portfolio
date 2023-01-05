@@ -52,6 +52,7 @@ img:hover {
 }
 
 .important:hover {
+  transition: background-color 1s 1s;
   background-color:pink;
 }
 
@@ -82,7 +83,6 @@ p.second-webpage {
   color: DarkSlateBlue;
 }
 
-a:hover {
-  transition: background-color 1s 1s;
+a {
   background-color: orange;
 }
