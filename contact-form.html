@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <nav>
+      <a href="index.html">Home Page</a>
+    </nav>
+    <form method="GET">
+      <label> Your Name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label> Your email:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <label> Your phone number:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <label>
+          <textarea name="applicationReason" rows="5" cols="50"></textarea>
+      </label>
+
+      <fieldset>
+        <legend>Do you like my webpage layout?</legend>
+      <label>Yes
+        <input type="radio" name="feedback" value="yes">
+      </label>
+
+      <label>No
+        <input type="radio" name="feedback" value="no">
+      </label>
+
+      </fieldset>
+
+      <label>Did you like the Chuck Norris Picture?
+        <select name="hours">
+          <option value="yes"> Yes</option>
+          <option value="definity"> Definity</option>
+          <option value="omg of course"> omg of course</option>
+        </select>
+      </label>
+
+      <fieldset class="checkbox">
+        <legend>Whats foods do you like?</legend>
+      <label>Dogs
+        <input class="checkbox" type="checkbox" name="food" value="Pizza">
+        <span class="checkmark"></span>
+      </label>
+
+      <label>Cats
+        <input class="checkbox" type="checkbox" name="food" value="Hot Dogs">
+        <span class="checkmark"></span>
+      </label>
+
+      <label>Moose
+        <input class="checkbox" type="checkbox" name="food" value="Ice Cream">
+        <span class="checkmark"></span>
+      </label>
+      </fieldset>
+
+      <input type="submit" value="Apply Now!">
+    </form>
+  </body>
+</html>
